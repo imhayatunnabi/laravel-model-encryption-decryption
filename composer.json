@@ -1,0 +1,35 @@
+{
+    "name": "imhayatunnabi/laravel-hashes",
+    "description": "A Laravel package for automatic encryption and decryption of model attributes",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Imhayatunnabi\\LaravelHashes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Imhayatunnabi\\LaravelHashes\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0",
+        "illuminate/database": "^8.0|^9.0|^10.0",
+        "illuminate/encryption": "^8.0|^9.0|^10.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "orchestra/testbench": "^6.0|^7.0|^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Imhayatunnabi\\LaravelHashes\\LaravelHashesServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+} 
