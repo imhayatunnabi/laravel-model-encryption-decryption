@@ -1,0 +1,16 @@
+feat: Support Laravel 5 through 12 and implement test suite
+
+- Update composer.json to support Laravel versions 5 through 12
+- Add PHP 7.2 support for older Laravel versions
+- Implement comprehensive test suite with PHPUnit
+- Add test cases for encryption/decryption functionality
+- Set up in-memory SQLite database for testing
+- Configure Orchestra Testbench for package testing
+
+Test coverage:
+- Attribute encryption on save
+- Attribute decryption on retrieve
+- Null value handling
+- Encrypted attribute updates
+
+All tests passing: 4 tests, 8 assertions 
